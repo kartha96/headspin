@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int n;
+  int n,k;
   int arr[100];
   printf("Enter the number of elements to the array");
   scanf("%d",&n);
@@ -15,6 +15,7 @@ int main()
   int sum1 = 0;  
   for(i = 0; i<n; i++)
     sum1 = sum1 + arr[i]; 
-  printf("missing number = %d", sum - sum1);
+  k=sum-sum1;
+  printf("missing number = %d", k);
   return 0;
 }
