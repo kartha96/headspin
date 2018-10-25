@@ -7,7 +7,7 @@ int main()
   scanf("%d",&n);
   int i;
   int x = n+1;
-  printf("Enter the elements to the array");
+  printf("Enter the elements to the array without repeating");
   for(i=0;i<n;i++)
   scanf("%d",&arr[i]);  
   int sum = 0;
