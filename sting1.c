@@ -34,7 +34,7 @@ return max;
 	
  int main()
   {
-     int arr[100],j,size,min;
+     int arr[100],j,min;
      int size=5;	 
      printf("enter the number of elements\n");
      printf("enter the elements\n");
